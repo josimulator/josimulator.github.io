@@ -8,14 +8,19 @@ body{
 }
 .current-year{
 	color: white;
-	font-size: 150px;
+	font-size: 10vw;
+	text-shadow: 3px 3px 3px black;
+}
+.no-js{
+	color: white;
+	font-size: 5vw;
 	text-shadow: 3px 3px 3px black;
 }
 .bot-text{
 	position: absolute;
 	height: 300px;
-	display: inline-block;
-	bottom: 50px;
+	display: block;
+	bottom: 1vw;
 	right: 50px;
 }
 .transgression{
@@ -24,7 +29,7 @@ body{
 	color: white;
 	bottom: 25px;
 	width: 100%;
-	font-size: 150px;
+	font-size: 4vw;
 	text-shadow: 3px 3px 3px black;
 	float: right;
 	text-align: right;
@@ -36,11 +41,12 @@ input{
 	position: relative;
 	display: inline;
 	float: right;
-	bottom: -136px;
+	bottom: -10px;
+	right: -40px;
 	min-height: 200px;
-	width: 100%;
+	width: 98vw;
 	color: white;
-	font-size: 150px;
+	font-size: 4vw;
 	text-shadow: 3px 3px 3px black;
 	text-align: right;
 }
