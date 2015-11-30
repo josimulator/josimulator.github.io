@@ -11,9 +11,6 @@ app.controller('CurCtrl', function($scope, $location){
 			}, 0); 
 		}
 	});
-	$scope.$watch('transgression', function(newValue){
-		$scope.setSearch();
-	});
 	
 	$scope.setSearch = function(){
 		$location.search('t', $scope.transgression);
